@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>button</title>
+</head>
+<body>
+    <p id="demo">WELCOME HOME</p>
+    <input type="button" value="OnClick" onclick="document.getElementById('demo').innerHTML='Get Out' ">
+    <input type="button" value="ZoomIn" onclick="document.getElementById('demo').style.fontSize='60px'">
+    <input type="button" value="ZoomOut" onclick="document.getElementById('demo').style.fontSize='20px'">
+    <input type="button" value="ColorChange" onclick="document.getElementById('demo').style.color='green'">
+    <input type="button" value="Hide" onclick="document.getElementById('demo').style.display='none'">
+    <input type="button" value="Show" onclick="document.getElementById('demo').style.display='block'">
+    <input type="button" value="RandomColor" onclick="document.getElementById('demo').style.color=RandomColor()">
+<script>
+    function RandomColor(){
+        var letters='0123456789ABCDEF';
+        var color='#';
+        for(var i=0;i<6;i++){
+            color+=letters[Math.floor(Math.random()*16)];
+    }
+    return color;
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+write programs that finds area and perimeter of figures by diffrent importing statement(include selective import of modules and import * )
+
+
+create rectangle class with attributes length and bredth and methods find area and perimeters compare 2 rectangles
+
+write constructor and methods and deposit ath the bank and withdraw ammount from the bag
