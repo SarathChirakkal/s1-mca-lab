@@ -31,3 +31,20 @@ if ($_POST) {
         // }
     }
 }
+
+
+
+
+
+
+
+
+// if($conn)
+// {
+//     echo "connection successful";
+// }
+// else
+// {
+//     echo "connection failed";
+// }
+

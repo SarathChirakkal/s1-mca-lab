@@ -17,7 +17,7 @@ if ($_POST) {
     $series1 = $_POST['series1'];
     $series2 = $_POST['series2'];
     $assignment = $_POST['assignment'];
-    $attendance = $_POST['attendance'];
+    $attendance = $_POST['attendence'];
 
     $r="update marks set series1='$series1',series2=' $series2',assignment='$assignment',attendence='$attendance' where ktuid='$ktuid' AND subject='$subject'";
     $rp=mysqli_query($conn,$r);

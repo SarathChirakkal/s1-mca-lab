@@ -9,12 +9,12 @@
 
 <body>
     <center>
-        <form action="update_mark.php" method="post">
+        <form action="update.php" method="post">
             <table border="2px" width="600px">
                 <tr rowspan="2">
                     <td colspan="2">
                         <h3>
-                            <center>MARKS</center>
+                            <center>MARKS UPDATION</center>
                         </h3>
                     </td>
                 </tr>
@@ -66,7 +66,7 @@
                     </td>
                 </tr>
 
-                <tr>
+                <!-- <tr>
                     <td>SCORES</td>
                     <td>
                         FIRST SERIES &nbsp;&nbsp;&nbsp;&nbsp; <input type='text' name='series1'><br>
@@ -74,11 +74,11 @@
                         ASSIGNMENT &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type='text' name='assignment'><br>
                         ATTENDANCE &nbsp;&nbsp;&nbsp;&nbsp;<input type='text' name='attendance'><br>
                     </td>
-                </tr>
+                </tr> -->
                 <tr>
                     <td colspan=2>
                         <center>
-                            <input type='submit' value='UPDATE' name='submit'>
+                            <input type='submit' value='UPDATE'>
                         </center>
                     </td>
                 </tr>
