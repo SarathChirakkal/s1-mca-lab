@@ -5,9 +5,10 @@ struct node
     int data;  
     struct node *next;   
 };  
+
 struct node *head;  
   
-void beginsert ();   
+void begininsert();   
 void lastinsert ();  
 void randominsert();  
 void begin_delete();  
@@ -29,7 +30,7 @@ void main ()
         switch(choice)  
         {  
             case 1:  
-            beginsert();      
+            begininsert();      
             break;  
             case 2:  
             lastinsert();         
@@ -60,7 +61,7 @@ void main ()
         }  
     }  
 }  
-void beginsert()  
+void begininsert()  
 {  
     struct node *ptr;  
     int item;  
